@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/admin/admin-portal-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/admin/admin-portal-front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/home/Home" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/pecunia/front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/pecunia/server-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apps/sso" vcs="Git" />
+  </component>
+</project>

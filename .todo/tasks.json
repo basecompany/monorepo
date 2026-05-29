@@ -1,0 +1,24 @@
+[
+  {
+    "id": "TASK_1",
+    "priority": "CRITICAL",
+    "tags": [],
+    "title": "THE URL OF ALL THE PROJECTS SHOULD BE INDEXED USING .ENV OR ELSE",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2025,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 15,
+        "minute": 3,
+        "second": 20,
+        "nano": 301119988
+      }
+    },
+    "isImported": false
+  }
+]

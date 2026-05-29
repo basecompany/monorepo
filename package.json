@@ -1,0 +1,26 @@
+{
+  "name": "basecompany-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/admin/admin-portal-backend",
+    "apps/admin/admin-portal-front",
+    "apps/home/Home",
+    "apps/pecunia/front",
+    "apps/pecunia/server-api",
+    "apps/sso",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev:admin-backend": "npm run dev --workspace apps/admin/admin-portal-backend",
+    "dev:admin-portal-api": "npm run dev --workspace apps/admin/admin-portal-backend",
+    "dev:admin-front": "npm run dev --workspace apps/admin/admin-portal-front",
+    "dev:home": "npm run dev --workspace apps/home/Home",
+    "dev:pecunia-front": "npm run dev --workspace apps/pecunia/front",
+    "dev:pecunia-server": "npm run dev --workspace apps/pecunia/server-api",
+    "dev:sso": "npm run dev --workspace apps/sso"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
